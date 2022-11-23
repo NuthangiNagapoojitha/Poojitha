@@ -1,0 +1,5 @@
+num=int(input('entered values are even or odd'))
+if (num%2)==0:
+    print('numberb is even')
+else:
+    print ('number is odd')
