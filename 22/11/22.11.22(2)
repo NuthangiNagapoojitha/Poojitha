@@ -1,0 +1,7 @@
+x=6
+y=9
+print("before swapping ")
+print("values  x:",x,"and y:",)
+x,y=y,x
+print("after swapping ")
+print("value of x:",x,"and y:",y)
