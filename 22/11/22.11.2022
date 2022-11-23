@@ -1,0 +1,6 @@
+p=1000000
+R=7
+n=120
+r=R/12*100
+emi= p*r*((1+r)**n)/((1+r)**n-1)
+print("monthly EMI",emi)
