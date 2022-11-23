@@ -1,0 +1,10 @@
+sno=int(input("enter students id"))  
+name=input("enter name")
+group=input("enter group")
+gender=input("male or female")  address=input("address")
+phno=int(input("phone number"))
+print("sno : ", sno) print("sname:", name)
+print("group", group)
+print("gender", gender)
+print("address : ", address)
+print("phno : ",phno)|
