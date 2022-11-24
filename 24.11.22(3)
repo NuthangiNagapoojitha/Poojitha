@@ -1,0 +1,13 @@
+a=int(input("s.no"))
+b=input("student name")
+c=input("group")
+s1=int(input())
+s2=int(input()) 
+s3=int(input())
+print(a)
+print(b)
+print(c)
+if(s1 and s2 and s3)>=35:
+    print("pass")
+else:
+     print("fail")
