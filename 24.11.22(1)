@@ -1,0 +1,6 @@
+a=6
+b=6
+print ('addition',a+b)
+print ('subtraction,a-b)
+print ('product',a*b)
+print('divide',a/b)
