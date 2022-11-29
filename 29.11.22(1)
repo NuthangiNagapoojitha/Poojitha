@@ -1,0 +1,8 @@
+desired_pin='1234'
+def verify_pin(the_pin):
+     return the_pin==desired_pin
+pin=input('please enter your pin')
+if verify_pin(pin):
+    print ('continue')
+else:
+     print('incorrect pin number')
