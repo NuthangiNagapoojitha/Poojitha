@@ -1,0 +1,11 @@
+number=int(input("please enter the fibonaci number lange"))
+first=0
+second=1
+sum=0
+for num in range(0,number):
+    print(first,second,"")
+    sum=sum+first
+    next=first+second
+    first=second
+    second=next
+    print("the sum. of fibonacic series mumber =",sum)
