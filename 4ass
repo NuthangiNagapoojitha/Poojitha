@@ -1,0 +1,6 @@
+a=64
+b=24
+if a>b:
+    print("a id big")
+else:
+    print("b is big")
