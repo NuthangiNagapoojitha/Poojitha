@@ -1,0 +1,2 @@
+import math as m
+print("hello" if m.sqrt(int(input()))>10 else "hi")
