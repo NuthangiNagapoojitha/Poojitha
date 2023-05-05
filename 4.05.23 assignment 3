@@ -1,0 +1,24 @@
+module Fibonacci
+  class Operation
+    def input(message)
+      puts message
+      gets.chomp.to_i
+    end
+
+    def fibonacci(n)
+      num1 = 0
+      num2 = 1
+      result = []
+      
+      while num2 < n
+        result << num2
+        num1, num2 = num2, num1 + num2 
+      end
+
+      result
+    end
+  end
+
+  res = Operation.new
+  puts res.fibonacci(res.input 'Enter the number upto which Fibonacci needs to be printed:')
+end
