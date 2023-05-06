@@ -1,0 +1,19 @@
+with primality; use primality;
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+
+
+procedure List_Primes is
+   count : Natural;
+   Num   : Positive := 2;
+begin
+   Put("Enter the number of primes you want to print: ");
+   Get(count);
+   while count > 0 loop
+      if Is_Prime(Num) then
+         Put_Line(Num'Image);
+         count := count - 1;
+      end if;
+      Num := Num + (if Num = 2 then 1 else 2);
+   end loop;
+end List_Primes;
